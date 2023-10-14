@@ -17,6 +17,7 @@ import org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededExceptio
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -62,6 +63,7 @@ import com.designs.interior.remote.QuotationRemote;
 
 @Controller
 @RequestMapping(path = "/designer")
+@Async
 public class DesignerController 
 {
 	@Autowired
