@@ -32,7 +32,7 @@
 	<div class="about">
 		<h2>About Us</h2>
 		
-		<p>Founded in 2023, VAMSO TROVE is a full-service interior design firm located in Vijayawada, Andhra Pradesh. We specialize in creating beautiful, functional, and stylish spaces that reflect our clients' unique needs and style.
+		<p>Founded in 2023, VAMS TROVE is a full-service interior design firm located in Vijayawada, Andhra Pradesh. We specialize in creating beautiful, functional, and stylish spaces that reflect our clients' unique needs and style.
 		
 		Our team of experienced designers has a passion for creating spaces that people love to live in. We believe that every space should be a reflection of the people who live there, and we work closely with our clients to understand their needs and goals.
 		
