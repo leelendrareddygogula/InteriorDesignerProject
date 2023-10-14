@@ -1,0 +1,108 @@
+.card{
+    width: 85%;
+    background: white;
+    text-align: left;
+    padding: 3% 3% 3% 3%;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 0px 20px 16px rgba(0, 0, 0, 0.19);
+}
+
+.submitbutton{
+	text-align: center;
+}
+
+.did-floating-input{
+      font-size: 15px;
+    display: block;
+    width: 40%;
+    height: 35px;
+    padding: 0 20px;
+    color: #323840;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 7%;
+  &:focus{
+    outline:none;
+    ~ .did-floating-label{
+      top:-8px;
+      font-size:13px;
+    }
+  }
+}
+
+.did-floating-input:not(:placeholder-shown) ~ .did-floating-label {
+  top:-8px;
+  font-size:13px;
+}
+
+.did-floating-input::placeholder {
+	font-size: 13px;
+  color: black;
+}
+
+.nameinput{
+	display: flex;
+}
+
+.card table{
+	border-spacing: 25px;
+    font-size: 20px;
+    border: 1px solid;
+}
+
+select {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        outline: 0;
+        color: black;
+        border: 1px solid black;
+        padding: 4px;
+        border-radius: 9px;
+        font-size: 17px;
+      }
+      
+.rating{
+  display : flex;
+  margin-top: 2%;
+}
+
+.rating input{
+  position : absolute;
+  left     : -100vw;
+}
+
+.rating label{
+  width      : 48px;
+  height     : 20px;
+  padding    : 48px 0 0;
+  overflow   : hidden;
+  background : url('stars.svg') no-repeat top left;
+}
+
+.rating:not(:hover) input:indeterminate + label,
+.rating:not(:hover) input:checked ~ input + label,
+.rating input:hover ~ input + label{
+  background-position : -48px 0;
+}
+
+.rating:not(:hover) input:focus-visible + label{
+  background-position : -96px 0;
+}
+
+.labelrating{
+	display: flex;
+}
+
+label{
+	    align-self: center;
+}
+
+button{
+	background: green;
+    color: white;
+    padding: 1.5%;
+    width: 12%;
+    border-radius: 70px;
+    font-size: 20px;
+}

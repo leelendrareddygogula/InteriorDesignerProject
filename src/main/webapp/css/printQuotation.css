@@ -1,0 +1,80 @@
+.alltables{
+	display: flex;
+}
+
+@media print {
+           .printbutton {
+              visibility: hidden;
+           }
+        }
+.displaytable {
+	text-align: center;
+	border: 1px solid black;
+}
+
+.displaytable {
+  border-collapse: collapse;
+}
+
+.displaytable th, .displaytable td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.displaytable th {
+  background-color: #f2f2f2;
+}
+
+.displaytable td:last-child, .displaytable th:last-child {
+  width: 15%;
+}
+
+.displaytable tr:last-child {
+  border-bottom: none;
+}
+
+.sign{
+	width: 29%;
+    margin-left: 64%;
+    margin-top: 5%;
+    bottom: 1%;
+    border: 2px solid black;
+    padding: 20px 20px 0px 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.sign1{
+	width: 30%;
+    margin-left: 49%;
+    margin-top: 5%;
+    bottom: 1%;
+    border: 2px solid black;
+    padding: 8px 20px 0px 20px;
+    text-align: left;
+}
+
+.sign2{
+	width: 29%;
+    margin-left: 64%;
+    margin-top: 5%;
+    bottom: 1%;
+    border: 2px solid black;
+    padding: 20px 20px 0px 20px;
+    width: 200px;
+    position: fixed;
+    text-align: center;
+}
+
+@media print {
+
+  .sign2 {
+    display: block; /* Display on print */
+  }
+}
+
+@media screen {
+  .sign2 {
+    display: none; /* Hide on screen */
+  }
+}

@@ -1,0 +1,117 @@
+
+.details{
+    margin-left: 25%;
+    margin-right: 25%;
+    background: black;
+    color: white;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.details table{
+  background-color: black;
+  padding-top: 1%;
+  border-radius: 15px;
+  font-size: 20px;
+  padding-bottom: 1%;
+  text-align: center;
+  color:white;
+  width: 50%;
+  padding-top: 2%;
+  border-color: #ffffff00;
+}
+
+.details table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+.details table thead{
+	text-align-last: center;
+	text-transform: uppercase;
+  	border-color: white;
+}
+
+table td a{
+	text-decoration: none;
+	color: white;
+}
+
+.details table tbody{
+	border-color: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    cursor: default;
+    color: #000000 !important;
+    border: 1px solid transparent;
+    background: white;
+    box-shadow: none;
+    border-radius: 20px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    background-color: black;
+}
+
+.opt-buttons1{
+    background: #f54848;
+    padding-right: 4%;
+    height: 40px;
+    padding-left: 4%;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+.opt-buttons2{
+    background: green;
+    padding-right: 4%;
+    height: 40px;
+    padding-left: 4%;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 40px;
+}
+.buttons-dis{
+	display: flex;
+	justify-content: space-between;
+    width: 30%;
+}
+
+.buttons-dis a{
+	text-decoration: none;
+	color: white;
+}
+
+.card{
+    margin-top: 3%;
+    width: 40%;
+    background: white;
+    text-align: left;
+    padding: 4% 1% 2% 0%;
+    font-size: 20px;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 0px 20px 16px rgba(0, 0, 0, 0.19);
+}
+
+.card table{
+	border-spacing: 15px;
+}
+
+input[type="text"],input[type="number"]{
+	border: 2px solid black;
+    padding: 2% 0% 2% 2%;
+    width: 230px;
+    height: 25px;	
+}
+
+.generate-continue{
+	display: flex;
+    background: #e7f400;
+    padding: 1%;
+    color: black;
+    padding-right: 5%;
+    padding-left: 4%;
+    border-radius: 30px;
+}

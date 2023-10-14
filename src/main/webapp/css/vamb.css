@@ -1,0 +1,68 @@
+.alltables{
+	display: flex;
+}
+
+.details{
+    margin-left: 15%;
+    margin-right: 15%;
+    background: black;
+    color: white;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.details table{
+  background-color: black;
+  padding-top: 1%;
+  border-radius: 15px;
+  padding-bottom: 1%;
+  text-align: center;
+  color:white;
+  padding-top: 2%;
+  border-color: #ffffff00;
+}
+
+table thead{
+	text-align-last: center;
+	text-transform: uppercase;
+  	border-color: white;
+}
+
+table td a{
+	text-decoration: none;
+	color: white;
+}
+
+table tbody{
+	border-color: white;
+}
+
+.opt-buttons2 a{
+	text-decoration: none;
+	color: white;
+    padding-right: 4%;
+    height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+.opt-buttons2{
+    background: green;
+    padding-right: 4%;
+    height: 40px;
+    padding-left: 4%;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+.sign1{
+	width: 30%;
+    margin-left: 49%;
+    margin-top: 5%;
+    bottom: 1%;
+    border: 2px solid black;
+    padding: 8px 20px 0px 20px;
+    text-align: left;
+}

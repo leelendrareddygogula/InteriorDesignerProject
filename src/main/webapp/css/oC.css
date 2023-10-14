@@ -1,0 +1,44 @@
+input[type="text"],input[type="number"]{
+	border: 2px solid black;
+    padding: 2% 0% 2% 2%;
+    width: 230px;
+    height: 25px;	
+}
+
+.card{
+    margin-top: 3%;
+    width: 40%;
+    background: white;
+    text-align: left;
+    font-size: 20px;
+    padding: 4% 0% 3% 3%;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 0px 20px 16px rgba(0, 0, 0, 0.19);
+}
+th, td {
+	text-align: left;
+    width: 270px;
+    padding: 7px;
+}
+
+
+select{
+    outline: 0;
+    color: black;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 3px;
+    width: 89%;
+    font-size: 17px;
+      }
+      
+.generate-continue{
+	display: flex;
+    background: green;
+    padding: 1%;
+    color: white;
+    font-size: 16px;
+    padding-right: 5%;
+    padding-left: 4%;
+    border-radius: 30px;
+}

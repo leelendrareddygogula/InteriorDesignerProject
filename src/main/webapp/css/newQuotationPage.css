@@ -1,0 +1,131 @@
+input[type="text"],input[type="number"]{
+	border: 2px solid black;
+    padding: 2% 0% 2% 2%;
+    width: 230px;
+    height: 25px;	
+}
+
+th, td {
+	text-align: left;
+    width: 200px;
+    padding: 7px;
+}
+
+.generate-continue{
+	display: flex;
+    background: #000000;
+    padding: 1%;
+    color: #e7f400;
+    padding-right: 5%;
+    padding-left: 4%;
+    border-radius: 30px;
+}
+
+.generate-add{
+	display: flex;
+    background: #000000;
+    padding: 1%;
+    color: #e7f400;
+    padding-right: 5%;
+    padding-left: 4%;
+    border-radius: 30px;
+    font-size: 15px;
+    width: 210px;
+}
+
+.card{
+    margin-top: 3%;
+    width: 40%;
+    background: white;
+    text-align: left;
+    padding: 4% 0% 3% 3%;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 0px 20px 16px rgba(0, 0, 0, 0.19);
+}
+
+
+.buttons-dis{
+	display: flex;
+	justify-content: space-between;
+    width: 40%;
+}
+
+.buttons-dis a{
+	text-decoration: none;
+	color: white;
+}
+
+.opt-buttons1{
+    background: #f54848;
+    padding-right: 4%;
+    height: 40px;
+    padding-left: 4%;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+.opt-buttons2{
+    background: green;
+    padding-right: 4%;
+    height: 40px;
+    padding-left: 4%;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+
+
+.details{
+    margin-left: 0.27%;
+    margin-right: 0.27%;
+    background: black;
+    color: white;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.details table{
+  background-color: black;
+  padding-top: 1%;
+  border-radius: 15px;
+  padding-bottom: 1%;
+  text-align: center;
+  color:white;
+  padding-top: 2%;
+  border-color: #ffffff00;
+}
+
+table thead{
+	text-align-last: center;
+	text-transform: uppercase;
+  	border-color: white;
+}
+
+table td a{
+	text-decoration: none;
+	color: white;
+}
+
+table tbody{
+	border-color: white;
+}
+
+.in-details{
+	margin-left: 40%;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    cursor: default;
+    color: #000000 !important;
+    border: 1px solid transparent;
+    background: white;
+    box-shadow: none;
+    border-radius: 20px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    background-color: black;
+}

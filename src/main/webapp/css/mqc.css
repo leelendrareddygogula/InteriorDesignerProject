@@ -1,0 +1,31 @@
+.card{
+    margin-top: 3%;
+    width: 35%;
+    background: white;
+    text-align: left;
+    padding: 3% 1% 4% 6%;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 0px 20px 16px rgba(0, 0, 0, 0.19);
+}
+
+input[type="text"],input[type="number"]{
+	border: 2px solid black;
+    padding: 2% 0% 2% 2%;
+    width: 230px;
+    height: 25px;	
+}
+
+.generate-continue{
+	display: flex;
+    background: yellow;
+    padding: 1%;
+    color: black;
+    padding-right: 5%;
+    padding-left: 4%;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+table {
+  border-spacing: 15px;
+}
