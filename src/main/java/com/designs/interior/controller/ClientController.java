@@ -40,7 +40,6 @@ import com.designs.interior.remote.OnlineCustomerRemote;
 import com.designs.interior.remote.SuperAdminRemote;
 
 @Controller
-@Async
 public class ClientController 
 {
 	@Autowired

@@ -63,7 +63,6 @@ import com.designs.interior.remote.QuotationRemote;
 
 @Controller
 @RequestMapping(path = "/designer")
-@Async
 public class DesignerController 
 {
 	@Autowired
