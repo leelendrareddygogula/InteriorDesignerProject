@@ -27,3 +27,18 @@
 </ul>
 <h4>Styling & Presentation</h4>
 <p>While primarily a backend project, it includes integrated CSS and HTML components to ensure a cohesive look and feel for any server-side rendered pages or administrative dashboards.</p>
+<h3>Installation & Setup</h3>
+<ol>
+  <li><strong>Clone the repository:</strong>
+    <pre><code>git clone https://github.com/leelendrareddygogula/InteriorDesignerProject.git</code></pre>
+  </li>
+  <li><strong>Navigate to the project folder:</strong>
+    <pre><code>cd InteriorDesignerProject</code></pre>
+  </li>
+  <li><strong>Build the application:</strong>
+    <pre><code>mvn clean install</code></pre>
+  </li>
+  <li><strong>Run the project:</strong>
+    <pre><code>mvn spring-boot:run</code></pre>
+  </li>
+</ol>
